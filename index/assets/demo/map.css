@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+svg path {
+    /* fill: #00394f; */
+    stroke: rgb(0, 0, 0);
+    stroke-width: .25;
+}
+svg path:hover  {
+    fill: #006284;
+    transition: 0.4s;
+    cursor: pointer;
+}
+text {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+
+   svg {
+       width: 100vw;
+       min-width: 100vw;
+      zoom: 70%;
+   }
+}
